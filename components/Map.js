@@ -5,7 +5,7 @@ import MapView, { Marker } from 'react-native-maps';
 import { useSelector } from 'react-redux';
 import { selectDestination, selectOrigin} from '../slices/navSlice'
 import MapViewDirections from 'react-native-maps-directions'
-import { GOOGLE_MAPS_KEY } from '../screens/HomeScreen';
+import { GOOGLE_MAPS_KEY } from '@env'
 
 const Map = () => {
     const origin = useSelector(selectOrigin)

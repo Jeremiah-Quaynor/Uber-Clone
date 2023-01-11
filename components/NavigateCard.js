@@ -2,7 +2,7 @@ import { View, Text, ScrollView } from 'react-native'
 import React from 'react'
 import tw from 'twrnc'
 import { SafeAreaView } from 'react-native'
-import { GOOGLE_MAPS_KEY } from '../screens/HomeScreen'
+import { GOOGLE_MAPS_KEY } from '@env'
 import { GooglePlacesAutocomplete } from 'react-native-google-places-autocomplete';
 import { StyleSheet } from 'react-native'
 import { useDispatch, useSelector } from 'react-redux'
